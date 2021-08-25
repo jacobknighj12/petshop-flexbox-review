@@ -1,0 +1,40 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: blanchedalmond;
+width: 100vw;
+}
+header{
+text-align: center;
+line-height: 4rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px ridge cadetblue;
+}
+.card{
+    background-color: rgb(209, 196, 169);
+    border: 2px double rgb(61, 50, 50);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.card img {
+    width: 70%;
+    height: 50%;
+    
+}
+.text{
+    background-color: rgb(181, 209, 154);
+    border: 6px double cadetblue;
+    margin: 5px;
+}
+
+.text h2{
+    text-align: center;
+}
